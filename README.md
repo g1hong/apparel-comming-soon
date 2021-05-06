@@ -14,3 +14,4 @@
   (21.05.06)
 
 - git repository 생성 및 업로드
+- mobile(375px) 완성

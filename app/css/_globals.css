@@ -15,15 +15,27 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Josefin Sans", sans-serif;
+  font-size: var(--bodyFont);
+  background-color: hsl(0, 100%, 98%);
 }
+
+.color-dr {
+  color: var(--DesaturatedRed);
+}
+.color-dgr {
+  color: var(--DarkGrayishRed);
+}
+.hide {
+  display: none;
+}
+
 .attribution {
   width: 100%;
-  font-size: var(--bodyFont);
+  position: relative;
+  font-size: 13px;
   text-align: center;
   color: black;
-  position: relative;
-  bottom: 1rem;
 }
 .attribution a {
-  color: rgb(250, 168, 168);
+  color: rgb(211, 65, 65);
 }
