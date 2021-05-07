@@ -32,7 +32,7 @@ body {
 .attribution {
   width: 100%;
   position: relative;
-  font-size: 13px;
+  font-size: 0.8125rem; /*13px*/
   text-align: center;
   color: black;
 }
