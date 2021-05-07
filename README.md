@@ -15,3 +15,7 @@
 
 - git repository 생성 및 업로드
 - mobile(375px) 완성
+
+  (21.05.07)
+
+- 단위 px -> rem
