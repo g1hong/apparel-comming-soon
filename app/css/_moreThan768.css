@@ -1,0 +1,93 @@
+@media screen and (min-width: 768px) {
+  .container {
+    flex-flow: row;
+    height: 100vh;
+  }
+  .headerAndContent {
+    flex: 1;
+    background: url("../../images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header,
+  .content {
+    width: 25rem; /*400px*/
+  }
+  header {
+    height: fit-content;
+    background: none;
+    margin: 0 auto;
+  }
+  header img {
+    height: 80%;
+  }
+  .hero-mobile {
+    display: none;
+  }
+  .content {
+    background: none;
+    text-align: left;
+  }
+  .content p {
+    margin-right: 2rem;
+  }
+  .content__form button {
+    width: 6.25rem; /*100px*/
+    position: relative;
+    left: calc(100% - 6.25rem); /*100px*/
+  }
+  .hero-desktop {
+    display: flex;
+    flex: 1;
+    background: url("../../images/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .headerAndContent {
+    flex: 4;
+  }
+  header,
+  .content {
+    width: 100%;
+    max-width: 37.5rem; /*600px*/
+    margin-right: 0;
+    padding: 4rem; /*64px*/
+    padding-right: calc(15%);
+  }
+  header img {
+    height: 95%;
+  }
+  .content h1 {
+    margin-top: 0;
+    font-size: 3.75rem; /*60px*/
+    letter-spacing: 0.875rem; /*14px*/
+  }
+  .content p {
+    font-size: 1rem;
+  }
+  .hero-desktop {
+    flex: 3;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  header,
+  .content {
+    max-width: 740px;
+    padding-right: calc(28%);
+  }
+  .content h1 {
+    margin-top: 50px;
+    font-size: 70px;
+    letter-spacing: 1rem;
+  }
+  .content p {
+    margin-right: 1rem;
+  }
+}
