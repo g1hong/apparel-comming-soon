@@ -26,17 +26,22 @@
     display: none;
   }
   .content {
-    margin-top: 6rem;
+    margin-top: 5rem;
     background: none;
     text-align: left;
   }
   .content p {
     margin-right: 2rem;
   }
+  .content__form label {
+    left: calc(7%);
+  }
+  .content__form--field-error {
+    margin-left: calc(62%);
+  }
   .content__form button {
     width: 6.25rem; /*100px*/
-    /* position: relative; */
-    left: calc(100% - 6.25rem); /*100px*/
+    right: calc(8%);
   }
   .hero-desktop {
     display: flex;
@@ -69,6 +74,15 @@
   }
   .content p {
     font-size: 1rem;
+  }
+  .content__form label {
+    left: calc(5%);
+  }
+  .content__form--field-error {
+    margin-left: calc(70%);
+  }
+  .content__form button {
+    right: calc(1%);
   }
   .hero-desktop {
     flex: 3;

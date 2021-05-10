@@ -76,15 +76,14 @@ header img {
 }
 .content__form--field-error {
   width: fit-content;
-  margin-left: auto;
-  margin-left: calc(73%);
+  margin-left: calc(70%);
   bottom: 3.75rem; /*60px*/
 }
 
 .content__form button {
   width: 4rem;
   height: 2.875rem; /*46px*/
-  margin-left: calc(82%);
+  margin-left: calc(80%);
   bottom: 6.125rem; /*98px*/
 
   border: none;
@@ -104,9 +103,7 @@ header img {
     max-width: 26.5625rem; /*425px*/
     margin: 0 auto;
   }
-  .content__form--field-error {
-    margin-left: calc(70%);
-  }
+
   .content__form button {
     width: 5rem; /*80px*/
     margin-left: calc(78%);
