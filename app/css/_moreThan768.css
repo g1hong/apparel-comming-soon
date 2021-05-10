@@ -43,6 +43,10 @@
     width: 6.25rem; /*100px*/
     right: calc(8%);
   }
+  .content__form button::after {
+    width: 6.5rem; /*104px*/
+    right: calc(-0.5%);
+  }
   .hero-desktop {
     display: flex;
     flex: 1;

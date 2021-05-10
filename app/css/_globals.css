@@ -26,9 +26,18 @@ body {
   color: var(--DarkGrayishRed);
 }
 .hide {
-  display: none;
+  visibility: hidden;
 }
 
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.3;
+    transform: opacity linear;
+  }
+}
 .attribution {
   width: 100%;
   position: relative;
